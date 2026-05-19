@@ -14,6 +14,10 @@ export default [
     ...prefix("legal", [
         route("privacy-policy", "routes/legal/privacyPolicy/privacyPolicy.tsx"),
     ]),
+    route("github", "routes/github/githubLink.tsx"),
+    ...prefix("github", [
+        
+    ]),
     route("sponsors", "routes/sponsors/sponsors.tsx"),
     route("discord", "routes/discord/discordInvite.tsx"),
     route("*", "routes/$.tsx"),
