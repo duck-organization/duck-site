@@ -3,8 +3,7 @@ import { type RouteConfig, index, route, prefix } from "@react-router/dev/routes
 export default [
     index("routes/home.tsx"),
     ...prefix("bot", [
-        route("invite", "routes/bot/invite.tsx"),
-        route("github", "routes/bot/github.tsx"),
+        route("*", "routes/redirect.tsx"),
         route("docs", "routes/comingSoon/comingSoon.tsx"),
     ]),
     ...prefix("feedback", [
@@ -14,11 +13,11 @@ export default [
     ...prefix("legal", [
         route("privacy-policy", "routes/legal/privacyPolicy/privacyPolicy.tsx"),
     ]),
-    route("github", "routes/github/githubLink.tsx"),
     ...prefix("github", [
-        
+        route("*", "routes/redirect.tsx"),
     ]),
+    route("github", "routes/redirect.tsx"),
     route("sponsors", "routes/sponsors/sponsors.tsx"),
-    route("discord", "routes/discord/discordInvite.tsx"),
+    route("discord", "routes/redirect.tsx"),
     route("*", "routes/$.tsx"),
 ] satisfies RouteConfig;
