@@ -7,8 +7,8 @@ export default function Sponsors() {
         <Nav />
         <h1 className="text-5xl text-center text-black pt-8" style={{ fontFamily: "'Inria Serif', serif" }}>Sponsors</h1>
       </header>
-      <div className="relative z-10 flex flex-col items-center justify-center flex-1 gap-4">
-        
+      <div className="relative z-10 flex flex-col items-center justify-center pt-8 gap-4 text-xl text-neutral-500 hover:text-neutral-700" style={{ fontFamily: "'Inria Serif', serif" }}>
+        <a href="https://jvr2022.tech" target="_blank">Jvr2022</a>
       </div>
     </div>
   );
