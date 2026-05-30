@@ -2,9 +2,9 @@ import { redirect } from 'react-router';
 
 const MEMBERS: Record<string, string> = {
     unbravechimp: 'unbravechimp',
-    twatson: 'twatson',
+    tom: 'twatson',
     jvr: 'jvr2022',
-    kat: 'kat_11_11',
+    kat: 'kat-11-11',
 };
 
 const REDIRECTS: Record<string, string> = {
