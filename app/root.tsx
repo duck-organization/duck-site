@@ -9,7 +9,6 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import { CookieBanner } from "./components/cookieBanner/cookieBanner";
-import { Footer } from "./components/footer/footer";
 
 export function loader() {
   return { cfAnalyticsToken: process.env.CF_ANALYTICS_TOKEN ?? null };
@@ -30,7 +29,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body className="flex flex-col min-h-screen">
         {children}
-        <Footer />
         <ScrollRestoration />
         <Scripts />
         <script src="https://duckorg.statuspage.io/embed/script.js" />

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router";
 const logo = '/logoBanner.svg'
 import { Button } from "~/components/button/button";
 import { Nav } from "~/components/nav/nav";
+import { Footer } from "~/components/footer/footer";
 
 export function Landing() {
   const navigate = useNavigate();
@@ -21,6 +22,7 @@ export function Landing() {
           </Button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 const logo = '/logoBanner.svg'
 import { Nav } from "~/components/nav/nav";
+import { Footer } from "~/components/footer/footer";
 
 export default function ComingSoon() {
   return (
@@ -11,6 +12,8 @@ export default function ComingSoon() {
         <img src={logo} alt="Logo" />
         <h1 className="text-md text-center text-neutral-500">Coming Soon</h1>
       </div>
+      <Footer />
     </div>
+    
   );
 }

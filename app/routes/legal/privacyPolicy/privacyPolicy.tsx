@@ -1,4 +1,5 @@
 import { Nav } from "~/components/nav/nav";
+import { Footer } from "~/components/footer/footer";
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -106,6 +107,7 @@ export default function PrivacyPolicy() {
           </Section>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
