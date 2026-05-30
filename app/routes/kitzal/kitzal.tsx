@@ -1,7 +1,7 @@
 import backArrow from './back-arrow.svg';
 import leaf from './leaf.svg';
 
-export default function ComingSoon() {
+export default function Kitzal() {
   return (
     <div className="relative flex flex-col flex-1 overflow-hidden">
       <div className="bg-white relative z-10 flex flex-col items-center justify-center flex-1 gap-4 dark:bg-neutral-800">
@@ -21,7 +21,7 @@ export default function ComingSoon() {
               className="relative z-10 text-7xl text-black dark:text-white motion-safe:animate-[popup-soft_1s_both]"
               style={{ fontFamily: "'ClimateCrisis', sans-serif" }}
             >
-              Ritzal
+              Kitzal
             </h1>
             <h2 className="text-center z-10 text-2xl font-bold text-black dark:text-white motion-safe:animate-[popup-soft_1s_both] motion-safe:[animation-delay:500ms]">
               Coming Soon

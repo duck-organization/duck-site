@@ -16,7 +16,7 @@ export default [
     ...prefix("github", [
         route("*", "routes/redirect.tsx", { id: "redirect-github-wildcard" }),
     ]),
-    route("ritzal", "routes/ritzal/ritzal.tsx"),
+    route("kitzal", "routes/kitzal/kitzal.tsx"),
     route("github", "routes/redirect.tsx", { id: "redirect-github" }),
     route("sponsors", "routes/sponsors/sponsors.tsx"),
     route("discord", "routes/redirect.tsx", { id: "redirect-discord" }),
