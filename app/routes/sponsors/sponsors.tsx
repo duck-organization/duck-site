@@ -11,7 +11,9 @@ export default function Sponsors() {
       <div className="relative z-10 flex flex-col items-center justify-center pt-8 gap-4 text-xl text-neutral-500 hover:text-neutral-700" style={{ fontFamily: "'Inria Serif', serif" }}>
         <a href="https://jvr2022.tech" target="_blank">Jvr2022</a>
       </div>
-      <Footer />
+      <div className="mt-auto justify-end">
+        <Footer />
+      </div>
     </div>
   );
 }

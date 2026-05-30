@@ -12,7 +12,9 @@ export default function ComingSoon() {
         <img src={logo} alt="Logo" />
         <h1 className="text-md text-center text-neutral-500">Coming Soon</h1>
       </div>
-      <Footer />
+      <div className="mt-auto justify-end">
+        <Footer />
+      </div>
     </div>
     
   );

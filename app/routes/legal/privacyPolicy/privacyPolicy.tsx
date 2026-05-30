@@ -107,7 +107,9 @@ export default function PrivacyPolicy() {
           </Section>
         </div>
       </div>
-      <Footer />
+      <div className="mt-auto justify-end">
+        <Footer />
+      </div> 
     </div>
   );
 }
